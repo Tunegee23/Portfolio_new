@@ -1,28 +1,56 @@
-import React from 'react'
-import {RouterProvider, createBrowserRouter} from "react-router-dom"
-import Navbar from './Components/Navbar'
-import Portfolio from './Page/Portfolio'
+// import React from 'react'
+// import {RouterProvider, createBrowserRouter} from "react-router-dom"
+// import Navbar from './Components/Navbar'
+// import Portfolio from './Page/Portfolio'
 
+
+// function App() {
+//   const Router = createBrowserRouter([
+//     {
+//       path: "/",
+//       Component:Navbar
+//     },
+
+//     {
+//       path:"/portfolio",
+//       Component: portfolio
+//     }
+//   ])
+
+//   return (
+//    <>
+
+// <RouterProvider router={Router}/>
+//    </>
+//   )
+// }
+
+// export default App
+
+import React from 'react';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import Navbar from './Components/Navbar';
+import Portfolio from './Page/Portfolio';
 
 function App() {
-  const Router = createBrowserRouter([
+  const router = createBrowserRouter([
     {
       path: "/",
-      Component:Navbar
+      element: <Navbar />,
     },
-
+    
     {
-      path:"/portfolio",
-      Component: Portfolio
-    }
-  ])
+       path: "portfolio", 
+       element: <Portfolio />,
+    },
+    
+  ]);
 
   return (
-   <>
-
-<RouterProvider router={Router}/>
-   </>
-  )
+    <>
+      <RouterProvider router={router} />
+    </>
+  );
 }
 
-export default App
+export default App;

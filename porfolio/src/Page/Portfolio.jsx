@@ -13,7 +13,7 @@ function Portfolio() {
         <div class="absolute w-10 h-10 z-10 bg-[#DB6400] rounded-[10px]" id="animatedItem"></div>
         <div className="absolute left-10 z-10 w-10 h-10 rounded-[10px]" style={{ backgroundColor: '#ba113e', animation: 'rotateAround1 8s linear reverse infinite' }} id='animatedItem1'></div>
         <div className="text-[#2c3733] p-6">
-          <a href="">
+          <a href="/">
             <h1 className="font-sans-Bold text-xl">Developer X</h1>
           </a>
         </div>
