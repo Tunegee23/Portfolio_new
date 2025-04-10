@@ -12,7 +12,7 @@ function App() {
     },
 
     {
-      path:"/Portfolio",
+      path:"/portfolio",
       Component: Portfolio
     }
   ])
