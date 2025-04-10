@@ -1,12 +1,10 @@
-import React, { useRef, useEffect } from 'react';
+import React from 'react';
 import A from '../assets/img1.png'; 
 import B from '../assets/img2.png';
 import C from '../assets/img3.png';
 
-
 function Portfolio() {
   
-
   return (
     <div className="bg-[#2c3733] flex min-h-screen justify-center items-center p-3 md:p-[50px]">
       <div className="bg-black w-full  relative rounded-[10px]">
