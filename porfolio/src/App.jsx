@@ -7,7 +7,7 @@ function App() {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <Navbar />,
+      element: <Home />,
     },
     
     {
@@ -22,6 +22,14 @@ function App() {
       <RouterProvider router={router} />
     </>
   );
+  
+  function Home() {
+    return (
+        <>
+          <Navbar />
+        </>
+    );
+}
 }
 
 export default App;
