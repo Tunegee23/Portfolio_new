@@ -54,7 +54,7 @@ function DeveloperXPage() {
           <div className="text-center text-[#2c3733] font-sans-Bold md:text-left">
             <h3 ref={workRef} className="text-3xl font-bold md:mb-0 mb-4">MY WORK</h3>
             <p ref={bigRef} className="text-lg mb-8">For me, frontend development is about connecting people with brands through great web experiences. I take design visions and build them into interactive websites that are easy to use and look good.</p>
-            <a href="./portfolio" target="_blank" ref={portRef} className="hover:text-[#DB6400] font-semibold hover:underline">BROWSE PORTFOLIO →</a>
+            <a href="/portfolio" target="_blank" ref={portRef} className="hover:text-[#DB6400] font-semibold hover:underline">BROWSE PORTFOLIO →</a>
           </div>
         </section>
 

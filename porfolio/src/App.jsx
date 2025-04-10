@@ -1,7 +1,5 @@
 import React from 'react'
 import {RouterProvider, createBrowserRouter} from "react-router-dom"
-
-
 import Navbar from './Components/Navbar'
 import Portfolio from './Page/Portfolio'
 
