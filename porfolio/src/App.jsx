@@ -1,7 +1,8 @@
 import React from 'react';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
-import Navbar from './Components/Navbar';
-import Portfolio from './Components/Portfolio';
+import Home from './Page/Home';
+import Portfolio from './Page/Portfolio';
+
 
 function App() {
   const router = createBrowserRouter([
@@ -9,11 +10,11 @@ function App() {
       path: "/",
       element: <Home />,
     },
-    
+
     {
-       path: "/portfolio", 
-       element: <Portfolio />,
-    },
+      path: "/portfolio",
+      element: <Portfolio/>
+    }
     
   ]);
 
@@ -22,15 +23,6 @@ function App() {
       <RouterProvider router={router} />
     </>
   );
-  
-  
-  function Home() {
-    return (
-        <>
-          <Navbar />
-        </>
-    );
-}
 }
 
 export default App;
