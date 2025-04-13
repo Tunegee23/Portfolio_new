@@ -15,16 +15,16 @@ function Portfolio() {
             <h1 className="font-sans-Bold text-xl">Developer X</h1>
           </a>
         </div>
-        <div className=" flex-wrap md:flex justify-center md:gap-4 items-center  p-4">
+        <div className=" flex-wrap md:flex justify-center md:gap-8 items-center  p-10">
           <div className="text-center space-y-2 mt-3 ">
-            <a href="#">
-              <img src={A} className="w-[300px] block mx-auto transition-all ease-in-out duration-1000 hover:md:w-[350px]" alt="Landing Page" />
+            <a href="https://galaxy-xbip.vercel.app/" target="_blank">
+              <img src={A} className="w-[300px] block mx-auto transition-all ease-in-out duration-1000 hover:md:w-[350px]"  alt="Landing Page" /> 
             </a>
             <p className="text-[18px] font-sans-Bold text-[#2c3733]">Landing Page</p>
           </div>
 
           <div className="text-center space-y-2 mt-3">
-            <a href="#">
+            <a href="https://cart-five-theta.vercel.app/" target="_blank">
               <img src={B} className="w-[300px] block mx-auto transition-all ease-in-out duration-1000 hover:md:w-[350px]" alt="Shopping Cart(ongoing)" />
             </a>
             <p className="text-[18px] font-sans-Bold text-[#2c3733]">Shopping Cart(ongoing)</p>
@@ -36,20 +36,7 @@ function Portfolio() {
             </a>
             <p className="text-[18px] font-sans-Bold text-[#2c3733]">Shopping Cart(ongoing)</p>
           </div>
-
-          <div className="text-center space-y-2 mt-3">
-            <a href="#">
-              <img src={C} className="w-[300px] block mx-auto transition-all ease-in-out duration-1000 hover:md:w-[350px]" alt="Shopping Cart(ongoing)" />
-            </a>
-            <p className="text-[18px] font-sans-Bold text-[#2c3733]">Shopping Cart(ongoing)</p>
-          </div>
-
-          <div className="text-center space-y-2 mt-3">
-            <a href="#">
-              <img src={C} className="w-[300px] block mx-auto transition-all ease-in-out duration-1000 hover:md:w-[350px]" alt="Shopping Cart(ongoing)" />
-            </a>
-            <p className="text-[18px] font-sans-Bold text-[#2c3733]">Shopping Cart(ongoing)</p>
-          </div>
+          
         </div>
       </div>
     </div>

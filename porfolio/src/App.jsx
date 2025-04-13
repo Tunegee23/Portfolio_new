@@ -1,7 +1,7 @@
 import React from 'react';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Navbar from './Components/Navbar';
-import Portfolio from './Page/Portfolio';
+import Portfolio from './Components/Portfolio';
 
 function App() {
   const router = createBrowserRouter([
@@ -11,7 +11,7 @@ function App() {
     },
     
     {
-       path: "portfolio", 
+       path: "/portfolio", 
        element: <Portfolio />,
     },
     
@@ -22,6 +22,7 @@ function App() {
       <RouterProvider router={router} />
     </>
   );
+  
   
   function Home() {
     return (
