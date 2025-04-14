@@ -1,27 +1,24 @@
 import React from 'react';
-import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Route, RouterProvider, Routes, createBrowserRouter } from 'react-router-dom';
 import Home from './Page/Home';
 import Portfolio from './Page/Project';
 
 
 function App() {
-  const router = createBrowserRouter([
-    {
-      path: "/",
-      element: <Home />,
-    },
-
-    {
-      path: "/portfolio",
-      element: <Portfolio/>
-    }
-    
-  ]);
-
   return (
-    <>
-      <RouterProvider router={router} />
-    </>
+   
+    <BrowserRouter>
+    <Routes>
+
+      <Route path='/' element={<Home/>}/>,
+      <Route path='/portfolio' element={<Portfolio/>}/>
+      
+
+    </Routes>
+    
+    </BrowserRouter>
+     
+   
   );
 }
 

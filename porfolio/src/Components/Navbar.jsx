@@ -2,6 +2,7 @@
 import React from 'react';
 import Header from './Header';
 import bg from '../assets/Bg.png';
+import { Link } from 'react-router-dom';
 
 
 function Navbar() {
@@ -19,7 +20,7 @@ function Navbar() {
           <nav className="md:flex text-[16px] font-sans-Bold hidden space-x-4">
             <a href="#" className="hover:text-[#DB6400]">Home</a>
             <a href="#" className="hover:text-[#DB6400]"> Blog</a>
-            <a href="/portfolio" target="_blank" className="hover:text-[#DB6400]">Portfolio</a>
+            <Link to="/portfolio" className="hover:text-[#DB6400]">portfolio</Link>
           </nav>
         </header>
         <Header />
