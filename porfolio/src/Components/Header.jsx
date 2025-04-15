@@ -2,11 +2,11 @@
 
 import React, { useEffect,useState, useRef } from 'react';
 import { gsap } from 'gsap'; 
-import img1 from "../assets/facebook.svg"
 import img2 from '../assets/github.svg'
 import img3 from "../assets/instagram.svg"
 import img4 from "../assets/linkedin.svg"
 import { Link } from 'react-router-dom';
+
 
 
 
@@ -56,9 +56,8 @@ function DeveloperXPage() {
             <h3 ref={workRef} className="text-3xl font-bold m mb-4">MY WORK</h3>
             <p ref={bigRef} className="text-lg ">For me, frontend development is about connecting people with brands through great web experiences. I take design visions and build them into interactive websites that are easy to use and look good.</p>
 
-            <div ref={portRef} className="hover:text-[#DB6400]  font-semibold hover:underline">
-              <a href='/portfolio' >BROWSE PORTFOLIO </a>
-             
+            <div ref={portRef} className="hover:text-[#DB6400] font-semibold hover:underline">
+              <Link to="/portfolio">BROWSE PORTFOLIO</Link>
             </div>
             
           </div>

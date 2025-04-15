@@ -34,7 +34,7 @@ function Portfolio() {
             <a href="#">
               <img src={C} className="w-[300px] block mx-auto transition-all ease-in-out duration-1000 hover:md:w-[350px]" alt="Shopping Cart(ongoing)" />
             </a>
-            <p className="text-[18px] font-sans-Bold text-[#2c3733]">Shopping Cart(ongoing)</p>
+            <p className="text-[18px] font-sans-Bold text-[#2c3733]">FinPay</p>
           </div>
           
         </div>
