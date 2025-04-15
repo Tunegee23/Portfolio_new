@@ -45,18 +45,20 @@ function DeveloperXPage() {
           <p ref={paragraphRef} className="text-lg mb-8">I'm a dedicated front-end developer with two years of experience, driven by a passion for creating impactful web designs.</p>
         </section>
 
-        <section className="flex flex-col md:flex-row items-center justify-center space-y-8 md:space-y-0 md:space-x-16 mt-12">
+        <section className="flex flex-col md:flex-row  space-y-8 md:space-y-0 md:space-x-16 mt-12">
           <div className="text-center text-[#2c3733] font-sans-Bold md:text-left">
-            <h3 ref={aboutRef}  className="text-3xl font-bold mb-4">ABOUT ME</h3>
-            <p ref={smallRef} className="text-lg mb-8">Possessing a growth mindset, I am committed to continuous learning and contribute effectively within collaborative teams, consistently delivering work with a high degree of accuracy.</p>
+            <h3 ref={aboutRef}  className="text-3xl  font-bold mb-4">ABOUT ME</h3>
+            <p ref={smallRef} className="text-lg ">Possessing a growth mindset, I am committed to continuous learning and contribute effectively within collaborative teams, consistently delivering work with a high degree of accuracy.</p>
             <a href="#" ref={learnRef} className="hover:text-[#DB6400] font-semibold hover:underline">LEARN MORE →</a>
           </div>
 
           <div className="text-center text-[#2c3733] font-sans-Bold md:text-left">
-            <h3 ref={workRef} className="text-3xl font-bold md:mb-0 mb-4">MY WORK</h3>
-            <p ref={bigRef} className="text-lg mb-8">For me, frontend development is about connecting people with brands through great web experiences. I take design visions and build them into interactive websites that are easy to use and look good.</p>
+            <h3 ref={workRef} className="text-3xl font-bold m mb-4">MY WORK</h3>
+            <p ref={bigRef} className="text-lg ">For me, frontend development is about connecting people with brands through great web experiences. I take design visions and build them into interactive websites that are easy to use and look good.</p>
+
             <div ref={portRef} className="hover:text-[#DB6400]  font-semibold hover:underline">
-              <Link to="/portfolio" target="_blank" >BROWSE PORTFOLIO →</Link>
+              <a href='/portfolio' >BROWSE PORTFOLIO </a>
+             
             </div>
             
           </div>
