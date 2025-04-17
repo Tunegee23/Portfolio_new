@@ -45,13 +45,13 @@ function DeveloperXPage() {
           <p ref={paragraphRef} className="text-lg mb-8">I'm a dedicated front-end developer with two years of experience, driven by a passion for creating impactful web designs.</p>
         </section>
 
-        <section className="flex flex-col md:flex-row  space-y-8 md:space-y-0 md:space-x-16 mt-12">
+        <section className="flex flex-col md:flex-row px-2 space-y-8 md:space-y-0 md:space-x-10 mt-12">
 
           <div className="text-center text-[#2c3733] space-y-4 font-sans-Bold md:text-left">
             <h3 ref={aboutRef}  className="text-3xl  font-bold mb-4">ABOUT ME</h3>
             <p ref={smallRef} className="text-lg ">Possessing a growth mindset, I am committed to continuous learning and contribute effectively within collaborative teams, consistently delivering work with a high degree of accuracy.</p>
             <div>
-              <a href="#" ref={learnRef} className="hover:text-[#DB6400] font-semibold hover:underline">LEARN MORE →</a>
+              <a href="https://opetunegee.blogspot.com/2025/04/level-up-your-front-end-skills.html" target="_blank" ref={learnRef} className="hover:text-[#DB6400] font-semibold hover:underline">MY BLOG →</a>
             </div>
             
           </div>

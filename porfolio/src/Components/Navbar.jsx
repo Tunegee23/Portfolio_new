@@ -19,7 +19,7 @@ function Navbar() {
           </div>
           <nav className="md:flex text-[16px] font-sans-Bold hidden space-x-4">
             <a href="#" className="hover:text-[#DB6400]">Home</a>
-            <a href="#" className="hover:text-[#DB6400]"> Blog</a>
+            <a href="https://opetunegee.blogspot.com/2025/04/level-up-your-front-end-skills.html" target="_blank" className="hover:text-[#DB6400]"> Blog</a>
             <Link to="/portfolio" className="hover:text-[#DB6400]">portfolio</Link>
           </nav>
         </header>
