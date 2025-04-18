@@ -31,7 +31,7 @@ function Portfolio() {
           </div>
 
           <div className="text-center space-y-2 mt-3">
-            <a href="#">
+            <a href="https://finpay-landingpage.vercel.app/">
               <img src={C} className="w-[300px] block mx-auto transition-all ease-in-out duration-1000 hover:md:w-[350px]" alt="Shopping Cart(ongoing)" />
             </a>
             <p className="text-[18px] font-sans-Bold text-[#2c3733]">FinPay</p>
